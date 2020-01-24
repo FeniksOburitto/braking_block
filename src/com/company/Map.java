@@ -32,7 +32,9 @@ public class Map {
             }
         }
     }
-
+    public void setBrickValue(int value,int row,int col){
+        map[row][col] = value ;
+    }
 
 
 
